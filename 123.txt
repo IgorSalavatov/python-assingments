@@ -42,19 +42,19 @@ grades = [math, physics, python_grade]
 subjects = ['Math', 'Physics', 'Python']
 
 for i in range(len(grades)):
-    grade = grades[i]
-    
-    if grade >= 90:
-        comment = "Excellent"
-    elif grade >= 75:
-        comment = "Good"
-    elif grade >= 60:
-        comment = "Satisfactory"
-    else:
-        comment = "Fail"
-    
+   grade = grades[i]
 
-    print(f"{subjects[i]} : {grade} → {comment}")
+   if grade >= 90:
+       comment = "exelent"
+    elif grade >= 75:
+        comment = "good"
+    elif grade >= 60:
+        comment = "satisfactory"
+    else grade <= 50
+         comment = "fail"
+print (f"{subjects[i]} + {grade[i]} → {comment})
+        
+
 
 
 
